@@ -9,6 +9,10 @@ function onOpen() {
       .addToUi();
 }
 
+function hello() {
+  Logger.log('hello');
+}
+
 function menuItem1() {
   SpreadsheetApp.getUi() // Or DocumentApp or FormApp.
      .alert('You clicked the first menu item!');
