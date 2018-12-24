@@ -10,7 +10,7 @@ function onOpen() {
 }
 
 function hello() {
-  Logger.log('hello2');
+  Logger.log('hello');
 }
 
 function menuItem1() {
